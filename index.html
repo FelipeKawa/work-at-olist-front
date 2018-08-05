@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+
+    <title>Register Olist</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="scripts/app.js" type="text/javascript" language="javascript" async></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="margin">
+
+
+            <div class="form">
+                <div class="container">
+                    <span class="logo">olist</span>
+                    <span class="title">Crie sua conta</span>
+                    <label for="fullname">
+                        <span> Nome completo </span>
+                    </label>
+                    <input id="fullname" class="controls" type="text" name="fullname" required>
+
+                    <label for="email">
+                        <span>E-mail </span>
+                    </label>
+                    <input id="email" class="controls" type="text" name="email" required>
+
+                    <label for="password">
+                        <span>Senha </span>
+                    </label>
+                    <input id="password" class="controls" type="password" name="password" required>
+
+                    <div>
+                        <div id="bar1" class="strength-bars-empty" style="margin-left: 0px;"></div>
+                        <div id="bar2" class="strength-bars-empty"></div>
+                        <div id="bar3" class="strength-bars-empty"></div>
+                    </div>
+
+                    <div class="strength-password-area">
+                        <li id="mark1" class="mark-empty">
+                            <span class="span-mark">Pelo menos 6 caracteres</span>
+                        </li>
+
+                        <li id="mark2" class="mark-empty">
+                            <span class="span-mark">Pelo menos 1 letra maiúscula</span>
+                        </li>
+
+                        <li id="mark3" class="mark-empty">
+                            <span class="span-mark">Pelo menos 1 número</span>
+                        </li>
+
+                    </div>
+
+                    <label for="passwordConfirm">
+                        <span>Confirmar sua senha </span>
+                    </label>
+                    <input id="passwordConfirm" class="controls" type="password" name="passwordConfirm" required>
+
+                </div>
+
+                <div class="container">
+                    <button id="btnCreateAccount" class="enter">
+                        <span id="spanButton" class="span-button"> Criar conta </span>
+                        <div id="spinner"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

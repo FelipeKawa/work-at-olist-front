@@ -1,0 +1,17 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: SF Pro Text,Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 400;
+    height: 900px;
+}
+
+.background{
+    background-color: #f5f5fb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: -17px;
+}

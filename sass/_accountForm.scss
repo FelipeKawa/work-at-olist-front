@@ -1,0 +1,268 @@
+span {
+    font-weight: 400;
+    color: #8e90a9;
+    letter-spacing: 0.7px;
+}
+
+.span-button{
+    font-weight: 700 !important;
+    color: white !important;
+    font-size: 16px;
+}
+
+.enter {
+    display: flex;
+    width: 63%;
+    height: 51.5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2ad49d;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin-top: -7.5px;
+    border: none;
+    font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.enter:hover{
+    opacity: 0.8;   
+}
+.enter:disabled{
+    opacity: 0.8;
+    cursor: no-drop;
+}
+
+.margin{
+    margin-top: 100px;
+    background-color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 39.9%;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container {
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20%;
+}
+
+.form {
+    width: 116.5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+    margin-bottom: 30px;
+}
+.form-success {
+    width: 116.5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+    margin-bottom: 100px;
+}
+
+.controls {
+    width: 58.5%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #aaaab9;
+    margin: 8px 0;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0.1, 0.1);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0.1, 0.1);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+
+.controls.valid{
+    border: 1px solid $color-valid-form !important;
+}
+
+.controls.invalid{
+    border: 1px solid $color-invalid-form !important;
+}
+
+
+.controls::placeholder{
+    font-weight: 300;
+    font-size: 110%;
+    color: #a1a3b7;
+    font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 61px 0px 12px -65px;
+}
+.span-emailSucces{
+    color: #0c0a33;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 22px;
+    color: #0c0a33;
+    margin-bottom: 2%;
+    margin-left: 18%;
+    letter-spacing: 0.8px;
+}
+.title-success{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 22px;
+    color: #0c0a33;
+    margin-bottom: 2%;
+    letter-spacing: 0.8px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.mark-empty{
+    font-size: 33px;
+    margin-bottom: -10px;
+    color: $color-empty-form;
+}
+.mark-valid{
+    font-size: 33px;
+    margin-bottom: -10px;
+    color: $color-valid-form;
+}
+
+.mark-invalid{
+    font-size: 33px;
+    margin-bottom: -10px;
+    color: $color-invalid-form;
+}
+
+
+label{
+    margin-top: 13px; 
+}
+.span-mark{
+    font-size: 17px !important;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-left: -23px;
+}
+
+/*--------- Provide changes on css classes only in the Microsfot Edge or IE5+ ---------*/
+
+@supports (-ms-ime-align: auto) {
+    .span-mark{
+        font-size: 17px !important;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        margin-left: 0px !important;
+    }
+
+    .mark-empty{
+        font-size: 33px;
+        margin-bottom: -10px;
+        color: $color-empty-form;
+        margin-left: 17px;
+    }
+    .mark-valid{
+        font-size: 33px;
+        margin-bottom: -10px;
+        color: $color-valid-form;
+        margin-left: 17px;
+    }
+    
+    .mark-invalid{
+        font-size: 33px;
+        margin-bottom: -10px;
+        color: $color-invalid-form;
+        margin-left: 17px; 
+    }
+    
+  }
+  /*-------------------------------------------------------------------------*/
+
+.strength-password-area{
+    margin-bottom: 14px;
+}
+
+.strength-bars-empty{
+    width: 125px;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: $color-empty-form;
+    margin-left: 9px; 
+}
+
+.strength-bars-weak{
+    width: 125px;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: $color-weak;
+    margin-left: 9px;
+}
+
+.strength-bars-medium{
+    width: 125px;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: $color-medium;
+    margin-left: 9px;
+}
+
+.strength-bars-strong{
+    width: 125px;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: $color-strong;
+    margin-left: 9px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 10px;
+    font-size: 45px;
+    color: #0c29d0;
+    margin-bottom: 2%;
+    margin-left: 24%;
+    letter-spacing: -2px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
