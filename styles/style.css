@@ -252,6 +252,37 @@ label {
   }
 }
 /*-------------------------------------------------------------------------*/
+/*--------- Provide changes on css classes only in the Mozila Firefox ---------*/
+@-moz-document url-prefix() {
+  .span-mark {
+    font-size: 17px !important;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-left: 0px !important;
+  }
+
+  .mark-empty {
+    font-size: 33px;
+    margin-bottom: -10px;
+    color: #ebebeb;
+    margin-left: 17px;
+  }
+
+  .mark-valid {
+    font-size: 33px;
+    margin-bottom: -10px;
+    color: #1fe6a8;
+    margin-left: 17px;
+  }
+
+  .mark-invalid {
+    font-size: 33px;
+    margin-bottom: -10px;
+    color: #f79682;
+    margin-left: 17px;
+  }
+}
+/*-------------------------------------------------------------------------*/
 .strength-password-area {
   margin-bottom: 14px;
 }
