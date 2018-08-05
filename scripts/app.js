@@ -270,7 +270,7 @@
         document.getElementById('spinner').appendChild(div);
         
         setTimeout(function wait(){
-            window.location.pathname = "registerSucess.html";
+            window.location.pathname = "work-at-olist-front/registerSucess.html";
         }, 3000);
     };
 
