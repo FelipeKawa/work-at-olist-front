@@ -250,6 +250,42 @@ label {
     color: #f79682;
     margin-left: 17px;
   }
+
+  .strength-bars-strong {
+    width: 117px !important;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: #1fe6a8;
+    margin-left: 9px;
+  }
+
+  .strength-bars-empty {
+    width: 117px !important;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: #ebebeb;
+    margin-left: 9px;
+  }
+
+  .strength-bars-weak {
+    width: 117px !important;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: #f79682;
+    margin-left: 9px;
+  }
+
+  .strength-bars-medium {
+    width: 117px !important;
+    border-radius: 30px;
+    height: 8px;
+    float: left;
+    background-color: #f7bc1c;
+    margin-left: 9px;
+  }
 }
 /*-------------------------------------------------------------------------*/
 /*--------- Provide changes on css classes only in the Mozila Firefox ---------*/
@@ -400,7 +436,7 @@ label {
   }
 
   .strength-bars-empty {
-    width: 95px;
+    width: 103px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -409,7 +445,7 @@ label {
   }
 
   .strength-bars-weak {
-    width: 95px;
+    width: 103px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -418,7 +454,7 @@ label {
   }
 
   .strength-bars-medium {
-    width: 95px;
+    width: 103px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -427,7 +463,7 @@ label {
   }
 
   .strength-bars-strong {
-    width: 95px;
+    width: 103px;
     border-radius: 30px;
     height: 8px;
     float: left;
