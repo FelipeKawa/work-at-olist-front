@@ -60,6 +60,7 @@ span {
     margin-left: -10%;
     margin-bottom: 30px;
 }
+
 .form-success {
     width: 116.5%;
     padding-top: 5%;
@@ -98,7 +99,6 @@ span {
     border: 1px solid $color-invalid-form !important;
 }
 
-
 .controls::placeholder{
     font-weight: 300;
     font-size: 110%;
@@ -108,7 +108,7 @@ span {
 
 .imgcontainer {
     text-align: center;
-    margin: 61px 0px 12px -65px;
+    margin: 61px 0px 12px -90px;
 }
 .span-emailSucces{
     color: #0c0a33;
@@ -233,6 +233,41 @@ label{
         margin-left: 27px; 
     }
     
+    .strength-bars-strong {
+        width: 117px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: #1fe6a8;
+        margin-left: 9px;
+    }
+    .strength-bars-empty{
+        width: 117px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-empty-form;
+        margin-left: 9px; 
+    }
+    
+    .strength-bars-weak{
+        width: 117px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-weak;
+        margin-left: 9px;
+    }
+    
+    .strength-bars-medium{
+        width: 117px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-medium;
+        margin-left: 9px;
+    }
+    
   }
   /*-------------------------------------------------------------------------*/
 
@@ -241,7 +276,7 @@ label{
 }
 
 .strength-bars-empty{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -250,7 +285,7 @@ label{
 }
 
 .strength-bars-weak{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -259,7 +294,7 @@ label{
 }
 
 .strength-bars-medium{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -268,7 +303,7 @@ label{
 }
 
 .strength-bars-strong{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -287,6 +322,17 @@ label{
     margin-left: 24%;
     letter-spacing: -2px;
 }
+.logo-success{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 10px;
+    font-size: 45px;
+    color: #0c29d0;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    letter-spacing: -2px;
+}
 
 @media screen and (max-width: 300px) {
     span.psw {
@@ -295,5 +341,151 @@ label{
     }
     .cancelbtn {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1150px) and (min-width: 1024px){
+    .imgcontainer {
+        text-align: center;
+        margin: 61px 0px 12px -117px;
+    }
+    .strength-bars-empty {
+        width: 95px;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: #ebebeb;
+        margin-left: 9px;
+    }
+    .strength-bars-weak{
+        width: 95px;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-weak;
+        margin-left: 9px;
+    }
+    
+    .strength-bars-medium{
+        width: 95px;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-medium;
+        margin-left: 9px;
+    }
+    
+    .strength-bars-strong{
+        width: 95px;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-strong;
+        margin-left: 9px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .enter {
+        display: flex;
+        width: 65%;
+        height: 51.5px;
+        align-items: center;
+        justify-content: center;
+        background-color: #2ad49d;
+        cursor: pointer;
+        padding: 14px 20px;
+        margin-top: -7.5px;
+        border: none;
+        font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    .margin{
+        margin-top: 100px;
+        background-color: white !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 320px;
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 22px;
+        color: #0c0a33;
+        margin-bottom: 2%;
+        margin-left: 11%;
+        letter-spacing: 0.8px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 10px;
+        font-size: 45px;
+        color: #0c29d0;
+        margin-bottom: 2%;
+        margin-left: 16%;
+        letter-spacing: -2px;
+    }
+    .logo-success {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 10px;
+        font-size: 45px;
+        color: #0c29d0;
+        margin-bottom: 2%;
+        margin-left: 16%;
+        letter-spacing: -2px;
+    }
+    .strength-bars-empty {
+        width: 75px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: #ebebeb;
+        margin-left: 9px;
+    }
+    .span-mark {
+        font-size: 16px !important;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        margin-left: -23px;
+    }
+    .strength-bars-weak{
+        width: 75px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-weak;
+        margin-left: 9px;
+    }
+    
+    .strength-bars-medium{
+        width: 75px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-medium;
+        margin-left: 9px;
+    }
+    
+    .strength-bars-strong{
+        width: 75px !important;
+        border-radius: 30px;
+        height: 8px;
+        float: left;
+        background-color: $color-strong;
+        margin-left: 9px;
+    }
+    .imgcontainer {
+        text-align: center;
+        margin: 61px 0px 12px -145px;
     }
 }
