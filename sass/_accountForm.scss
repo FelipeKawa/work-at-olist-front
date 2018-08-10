@@ -108,7 +108,7 @@ span {
 
 .imgcontainer {
     text-align: center;
-    margin: 61px 0px 12px -90px;
+    margin: 61px 0px 12px -85px;
 }
 .span-emailSucces{
     color: #0c0a33;
@@ -175,6 +175,7 @@ label{
 /*--------- Provide changes on css classes only in the Microsfot Edge or IE5+ ---------*/
 
 @supports (-ms-ime-align: auto) {
+
     .span-mark{
         font-size: 17px !important;
         font-weight: 400;
@@ -202,38 +203,22 @@ label{
         margin-left: 17px; 
     }
     .strength-bars-strong {
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: #1fe6a8;
-        margin-left: 9px;
+        width: 125px !important;
+
     }
     .strength-bars-empty{
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: $color-empty-form;
-        margin-left: 9px; 
+        width: 125px !important;
     }
     
     .strength-bars-weak{
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: $color-weak;
-        margin-left: 9px;
+        width: 125px !important;
     }
     
     .strength-bars-medium{
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: $color-medium;
-        margin-left: 9px;
+        width: 125px !important;
+    }
+    .imgcontainer{
+        margin: 61px 0px 12px -68px;
     }
     
   }
@@ -247,6 +232,10 @@ label{
         margin-left: 0px !important;
     }
 
+    .imgcontainer{
+        margin: 61px 0px 12px -68px;
+    }
+    
     .mark-empty{
         font-size: 33px;
         margin-bottom: -10px;
@@ -268,38 +257,18 @@ label{
     }
     
     .strength-bars-strong {
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: #1fe6a8;
-        margin-left: 9px;
+        width: 125px !important;
     }
     .strength-bars-empty{
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: $color-empty-form;
-        margin-left: 9px; 
+        width: 125px !important;
     }
     
     .strength-bars-weak{
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: $color-weak;
-        margin-left: 9px;
+        width: 125px !important;
     }
     
     .strength-bars-medium{
-        width: 117px !important;
-        border-radius: 30px;
-        height: 8px;
-        float: left;
-        background-color: $color-medium;
-        margin-left: 9px;
+        width: 125px !important;
     }
     
   }
@@ -310,7 +279,7 @@ label{
 }
 
 .strength-bars-empty{
-    width: 117px;
+    width: 114px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -319,7 +288,7 @@ label{
 }
 
 .strength-bars-weak{
-    width: 117px;
+    width: 114px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -328,7 +297,7 @@ label{
 }
 
 .strength-bars-medium{
-    width: 117px;
+    width: 114px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -337,7 +306,7 @@ label{
 }
 
 .strength-bars-strong{
-    width: 117px;
+    width: 114px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -353,7 +322,7 @@ label{
     font-size: 45px;
     color: #0c29d0;
     margin-bottom: 2%;
-    margin-left: 24%;
+    margin-left: 22%;
     letter-spacing: -2px;
 }
 .logo-success{
@@ -364,7 +333,7 @@ label{
     font-size: 45px;
     color: #0c29d0;
     margin-bottom: 2%;
-    margin-left: 20%;
+    margin-left: 22%;
     letter-spacing: -2px;
 }
 
@@ -416,6 +385,9 @@ label{
         float: left;
         background-color: $color-strong;
         margin-left: 9px;
+    }
+    .logo-success{
+        margin-left: 19%;
     }
 }
 @media screen and (max-width: 768px) {
