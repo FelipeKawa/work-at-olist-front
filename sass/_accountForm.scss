@@ -108,7 +108,7 @@ span {
 
 .imgcontainer {
     text-align: center;
-    margin: 61px 0px 12px -68px;
+    margin: 61px 0px 12px -95px;
 }
 .span-emailSucces{
     color: #0c0a33;
@@ -279,7 +279,7 @@ label{
 }
 
 .strength-bars-empty{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -288,7 +288,7 @@ label{
 }
 
 .strength-bars-weak{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -297,7 +297,7 @@ label{
 }
 
 .strength-bars-medium{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -306,7 +306,7 @@ label{
 }
 
 .strength-bars-strong{
-    width: 125px;
+    width: 107px;
     border-radius: 30px;
     height: 8px;
     float: left;
@@ -353,7 +353,7 @@ label{
         margin: 61px 0px 12px -117px;
     }
     .strength-bars-empty {
-        width: 103px;
+        width: 95px;
         border-radius: 30px;
         height: 8px;
         float: left;
@@ -361,7 +361,7 @@ label{
         margin-left: 9px;
     }
     .strength-bars-weak{
-        width: 103px;
+        width: 95px;
         border-radius: 30px;
         height: 8px;
         float: left;
@@ -370,7 +370,7 @@ label{
     }
     
     .strength-bars-medium{
-        width: 103px;
+        width: 95px;
         border-radius: 30px;
         height: 8px;
         float: left;
@@ -379,7 +379,7 @@ label{
     }
     
     .strength-bars-strong{
-        width: 103px;
+        width: 95px;
         border-radius: 30px;
         height: 8px;
         float: left;
@@ -390,6 +390,7 @@ label{
         margin-left: 19%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .col-25, .col-75, input[type=submit] {
         width: 100%;
