@@ -328,7 +328,7 @@ label {
 }
 
 .strength-bars-empty {
-  width: 107px;
+  width: 106px;
   border-radius: 30px;
   height: 8px;
   float: left;
@@ -337,7 +337,7 @@ label {
 }
 
 .strength-bars-weak {
-  width: 107px;
+  width: 106px;
   border-radius: 30px;
   height: 8px;
   float: left;
@@ -346,7 +346,7 @@ label {
 }
 
 .strength-bars-medium {
-  width: 107px;
+  width: 106px;
   border-radius: 30px;
   height: 8px;
   float: left;
@@ -355,7 +355,7 @@ label {
 }
 
 .strength-bars-strong {
-  width: 107px;
+  width: 106px;
   border-radius: 30px;
   height: 8px;
   float: left;
